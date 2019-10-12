@@ -36,7 +36,7 @@ export class UserProvider extends Component {
         }
     }
 componentDidMount = async () => {
-      const response = await axios.get("http://jsonplaceholder.typicode.com/users");
+      const response = await axios.get("https://jsonplaceholder.typicode.com/users");
       this.setState({
           users: response.data
       })

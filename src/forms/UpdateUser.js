@@ -57,7 +57,7 @@ class UpdateUser extends Component {
             })
             return;
         }
-        const response = await axios.put(`http://jsonplaceholder.typicode.com/users/${id}`,updatedUser);
+        const response = await axios.put(`https://jsonplaceholder.typicode.com/users/${id}`,updatedUser);
 
         dispatch({type: "UPDATE_USER",payload : response.data});
 
