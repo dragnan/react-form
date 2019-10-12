@@ -65,7 +65,7 @@ class AddUser extends Component {
         dispatch({type : "ADD_USER",payload:response.data});
 
         // Redirect
-        this.props.history.push("/");
+        this.props.history.push("/react-form");
    }
 
 

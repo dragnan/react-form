@@ -8,7 +8,7 @@ function Navbar({title}) {
             <a href="/" className="navbar-brand">{title}</a>
             <ul className="navbar-nav ml-auto">
                 <li className="nav-item active">
-                    <Link to = "/" className ="nav-link">Home</Link>
+                    <Link to = "/react-form" className ="nav-link">Home</Link>
                 </li>
                 <li className="nav-item active">
                     <Link to = "/add" className ="nav-link">Add User</Link>

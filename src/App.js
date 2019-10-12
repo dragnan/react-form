@@ -19,7 +19,7 @@ class App extends Component {
           <hr/>
 
             <Switch>
-          <Route exact path = "/" component={Users} />
+          <Route exact path = "/react-form" component={Users} />
           <Route exact path = "/add" component={AddUser} />
           <Route exact path = "/github" component={Contribute} />
           <Route exact path = "/edit/:id" component = {UpdateUser} />
