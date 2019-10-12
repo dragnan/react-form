@@ -24,7 +24,7 @@ class User extends Component {
     onDeleteUser = async (dispatch,e) => {
         const {id} = this.props;
         // Delete Request
-        await axios.delete(`http://localhost:3000/users/${id}`);
+        await axios.delete(`http://jsonplaceholder.typicode.com/users/${id}`);
 
         //Consumer Dispatch
         dispatch({type : "DELETE_USER",payload:id});

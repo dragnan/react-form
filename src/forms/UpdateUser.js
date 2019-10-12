@@ -23,7 +23,7 @@ class UpdateUser extends Component {
     componentDidMount = async () => {
         const {id} = this.props.match.params;
 
-        const response = await axios.get(`http://localhost:3000/users/${id}`);
+        const response = await axios.get(`http://jsonplaceholder.typicode.com/users/${id}`);
 
         const {name,salary,department} = response.data;
         this.setState({
@@ -57,7 +57,7 @@ class UpdateUser extends Component {
             })
             return;
         }
-        const response = await axios.put(`http://localhost:3000/users/${id}`,updatedUser);
+        const response = await axios.put(`http://jsonplaceholder.typicode.com/users/${id}`,updatedUser);
 
         dispatch({type: "UPDATE_USER",payload : response.data});
 

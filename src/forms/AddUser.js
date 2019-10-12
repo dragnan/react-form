@@ -61,7 +61,7 @@ class AddUser extends Component {
             })
             return;
         }
-        const response = await axios.post("http://localhost:3000/users",newUser);
+        const response = await axios.post("http://jsonplaceholder.typicode.com/users",newUser);
         dispatch({type : "ADD_USER",payload:response.data});
 
         // Redirect
