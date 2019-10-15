@@ -1,4 +1,4 @@
-## Check : [https://dragnan.github.io/react-form]
+### Check : https://dragnan.github.io/react-form
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
