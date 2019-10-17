@@ -62,7 +62,7 @@ class UpdateUser extends Component {
         dispatch({type: "UPDATE_USER",payload : response.data});
 
         // Redirect
-        this.props.history.push("/");
+        this.props.history.push("/react-form");
     }
     render() {
         const {name,salary,department,error} = this.state;
