@@ -49,7 +49,7 @@ class User extends Component {
                             {
                                 isVisible ?
 
-                                    <div className="card-body">
+                                    <div className="card-body" style = {{backgroundColor : "#336666", color: "#fff"}}>
                                         <p className="card-text">Maaş : {salary}</p>
                                         <p className="card-text">Department : {department}</p>
                                         <Link to = {`edit/${id}`} className = "btn btn-dark btn-block">Update User</Link>
