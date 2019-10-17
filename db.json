@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "Abdullah Arıkan",
+      "salary": "3555",
+      "department": "Yazılım",
+      "id": "unique-1"
+    },
+    {
+      "name": "Mücella Arıkan",
+      "salary": "3000",
+      "department": "Pazarlama",
+      "id": "unique-2"
+    },
+    {
+      "name": "Cihan Ünlü",
+      "department": "Dökümantasyon",
+      "salary": "3750",
+      "id": "N4V97TS"
+    },
+    {
+      "name": "Hüseyin Topçu",
+      "department": "Tekstil",
+      "salary": "3000",
+      "id": "jkFRkW7"
+    }
+  ]
+}
